@@ -56,7 +56,7 @@ ul {
 
   .header .nav-box .header-list {
     height: 100vh;
-    background: #f3e4d5;
+    background:#d8b9a0;
     width: 50%;
     flex-direction: column;
     align-items: center;
@@ -112,12 +112,8 @@ ul {
 
 @media screen and (max-width: 410px) {
   .header .nav-box .search-box {
-    max-width: 150px;
-  }
-
-  .header .nav-box {
-    gap: 10px;
-  }
+    max-width: 180px;
+  }  
 
   header .nav-box .hero-icon {
     width: 100px !important;
@@ -182,6 +178,7 @@ ul {
 .main{
 padding-top: var(--header-height);
  margin-top: 1.5rem;
+ min-height: 100vh;
 }
 
 .main .erro-load {
@@ -311,4 +308,53 @@ padding-top: var(--header-height);
 
 .main .container .box-wrapper .cart-icon:hover{
   color: #704b36;
+}
+
+
+/* footer styles */
+
+.footer {
+  margin-top: 3rem;
+  box-shadow: 0 0 10px 5px rgba(135, 69, 22, 0.1);
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer .footer-details{
+  margin-bottom: 4rem;
+}
+
+.footer .footer-details .footer-title{
+  font-size: 2rem;
+  color: #704b36;
+  margin-bottom: 1rem;
+}
+
+.footer .footer-details .footer-descrip{
+  color: #8a604b;
+  margin-bottom: 1.6rem;
+  font-size: 1.1rem;
+}
+
+.footer .footer-details .footer-icons{
+  color: #8a604b;
+  font-size: 1.8rem;
+  
+
+}
+
+.footer .footer-details .footer-icons .icon {
+  margin: 0 0.8rem;
+  
+}
+
+
+.footer .footer-details .footer-icons .contact-txt{
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+}
+
+.footer .cioy-right-txt {
+  color: #704b36;
+  
 }
