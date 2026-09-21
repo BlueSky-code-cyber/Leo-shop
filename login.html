@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./fontawesom/css/all-fonts.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- left part -->
+      <section class="left-part">
+        <h1 class="title">Leo</h1>
+        <h3 class="welcom-text">Welcome to our online shop</h3>
+        <p class="left-text">Good things are waiting for you.</p>
+      </section>
+      <!-- right part -->
+      <section class="right-part">
+        <div>
+          <h2 class="form-name">Login form</h2>
+          <!-- login form -->
+          <form class="form login-form active" novalidate>
+            <div class="input-box">
+              <div class="input-icon-box">
+                <input
+                  type="email"
+                  placeholder="Enter email"
+                  class="inputs"
+                  id="login-email"
+                />
+
+                <span class="icons">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+              <span class="alert-text login-email-alert"></span>
+            </div>
+
+            <div class="input-box">
+              <div class="input-icon-box">
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  class="inputs"
+                  id="login-pass"
+                />
+                <span class="icons eye-icon">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+              <span class="alert-text login-pass-alert"></span>
+              <p class="forgot-txt">
+                <a href="#">Forgot password?</a>
+              </p>
+            </div>
+
+            <button type="submit" class="btn " id="login-btn">Enter LeoShop</button>
+            <div class="bottom-text">
+              <span>Don`t have an account?</span>
+              <a href="#" class="register-link">register</a>
+            </div>
+          </form>
+
+          <!-- register form -->
+          <form class="form register-form " novalidate>
+            <div class="input-box">
+              <div class="input-icon-box">
+                <input
+                  type="email"
+                  placeholder="Enter email"
+                  class="inputs"
+                  id="register-email"
+                />
+
+                <span class="icons">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+              <span class="alert-text register-email-alert"></span>
+            </div>
+
+            <div class="input-box">
+              <div class="input-icon-box">
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  class="inputs"
+                  id="register-pass"
+                />
+                <span class="icons eye-icon">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+              <span class="alert-text register-pass-alert"></span>
+              <p class="forgot-txt"></p>
+            </div>
+
+            <div class="input-box">
+              <div class="input-icon-box">
+                <input
+                  type="password"
+                  placeholder="repeat password"
+                  class="inputs"
+                  id="register-pass-confirm"
+                />
+                <span class="icons eye-icon">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+              <span class="alert-text register-confirm-alert"></span>
+              <p class="forgot-txt"></p>
+            </div>
+
+            <button type="submit" class="btn " id="register-btn">
+              Register LeoShop
+            </button>
+            <div class="bottom-text">
+              <span>Do have an account?</span>
+              <a href="#" class="login-link">login</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- link js -->
+    <script src="./login.js"></script>
+  </body>
+</html>
