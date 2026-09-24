@@ -123,9 +123,7 @@ a {
 }
 
 @media screen and (max-width: 412px) {
-  .container .right-part .form-name {
-    font-size: 1rem;
-  }
+  
 
 
   .right-part .input-box .inputs::placeholder {
@@ -154,7 +152,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .container .right-part .form-name {
-    font-size: 1.5rem;
+    font-size: 1.5rem  !important ;
   }
   
   .right-part .input-box .inputs::placeholder {
